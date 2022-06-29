@@ -1,9 +1,11 @@
 import React from "react";
 
+import PostList from "./components/PostList.jsx";
+
 const App = () => {
   return (
     <div>
-      <h1 className="font-bold text-5xl">Hi</h1>
+      <PostList />
     </div>
   );
 };
